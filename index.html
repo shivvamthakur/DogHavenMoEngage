@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font awesome file link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- jquery file link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+
+<script src="js/main.js"></script>
+
+<link rel="manifest" href="js/manifest.json" />
+
+<!-- favicon -->
+<link rel="shortcut icon" href="images/4.ico">
+
+
+
+  <title>Dog Haven</title>
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+<a href="index.html" class="logo"><img src="images/logo.png" alt=""><div class="logo-txt">Dog Haven.</div></a>
+
+
+<div class="fas fa-bars"></div>
+
+
+<nav class="navbar" onload="loginHider()">
+  <ul>
+    <li><a class="li2" href="index.html"><i class='bx bx-home' ></i> Home</a></li>
+    <li><a href="profiles.html" class="li2"><i class="fa fa-paw" aria-hidden="true"></i> Adopt Now</a></li>
+    <li><a class="li2" href="gallery.html"><i class='bx bx-news' ></i> Gallery</a></li>
+    <li><a class="li2" href="contact us.html" target="_blank"><i class='bx bxs-contact' ></i> Contact Us</a></li>
+    <li><a class="li2"  id="login_el" href="login.html"><i class='bx bx-log-in' ></i> Login/Sign Up</a></li>
+    <li><a class="li2" onclick="logout()" id="logout_el" href="login.html"><i class='bx bx-log-in' ></i> Logout</a></li>
+  </ul>
+</nav>
+
+
+</header>
+
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section id="home" class="home">
+<div class="txt1">
+
+<h1 class="banner">ADOPT, DON'T SHOP</h1>
+<h3 class="slogan">It's time to adopt your furry best friends instead of buying them!</h3>
+<a href="#about"><button>get started</button></a>
+</div>
+
+<div class="wave wave1"></div>
+<div class="wave wave2"></div>
+<div class="wave wave3"></div>
+
+
+</section>
+
+
+<!-- home section ends -->
+
+<!-- abuout section starts  -->
+
+<section id="about" class="about">
+<div class="all-txt1">
+
+
+<h1 class="heading">about us</h1>
+
+  <div class="txt2">
+
+    <div class="txt-img1">
+      <img src="images/txt-img2.jpg" alt="">
+    </div>
+
+    <div class="content">
+      <h3>PLANNING TO ADOPT A DOG?</h3>
+      <p>The number of euthanized animals could be reduced dramatically if more
+         people adopted pets instead of buying them. When you adopt, you save a
+         loving animal by making them part of your family and open up shelter
+         space for another animal who might desperately need it.</p>
+      <div class="btns">
+      <a href="profiles.html"><button class="btn">Adopt Now</button></a>
+      <a href="https://www.humanesociety.org/resources/top-reasons-adopt-pet"><button class="btn">Learn More</button></a>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+</section>
+
+
+<section id="about" class="about2">
+    <div class="txt-img2">
+      <img src="images/txt-img1.jpg" alt="">
+    </div>
+    <div class="content2">
+      <h3>What We Do?</h3>
+      <p>At our facility, frightened animals are reassured, sick and injured
+        animals receive treatment or a peaceful end to their suffering, and the
+        animals’ living quarters are kept clean and dry. Workers at our facility
+         never turn away needy animals and give careful consideration to each
+         animal’s special emotional and physical needs until a suitable owner is
+          found for them.</p>
+      <a href="https://www.peta.org/issues/animal-companion-issues/animal-shelters/">
+        <button id="btn2" class="btn">Learn More</button>
+      </a>
+    </div>
+
+
+</section>
+
+<!-- abuout section ends  -->
+
+
+
+<!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="https://headsupfortails.com/">Pet Accessories</a>
+          <a href="https://www.petaindia.com/donate/">Support Us</a>
+          <a href="https://www.petaindia.com/donate/">Donate</a>
+          <a href="https://www.humanesociety.org/resources/top-reasons-adopt-pet">Why Adopt?</a>
+          <a href="#">Journals</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="index.html #about">About Us</a>
+          <a href="https://www.petaindia.com/about-peta/privacy-policy/">Privacy Policy</a>
+          <a href="https://getfloof.com/blogs/floof-blog/adoption-process">Adoption Process</a>
+          <a href="contact us.html">Contact Us</a>
+          <a href="https://www.google.com/maps/place/Colaba+Causeway,+Mumbai,+Maharashtra/@18.9246004,72.8298892,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7d194218579c9:0xd9ae43411acdb561!8m2!3d18.9246004!4d72.8320779">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="login.html">My Account</a>
+          <a href="profiles.html">Apply For Adoption</a>
+          <a href="https://www.peta.org/about-peta/learn-about-peta/website-policies/subscribe-to-enews/">Newsletter</a>
+
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            3rd Lane Road, Colaba Causeway, Mumbai, India
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            doggomemer@email.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            987654321
+          </div>
+          <div>
+            <span>
+              <i class="far fa-paper-plane"></i>
+            </span>
+            Colaba Causeway, Mumbai, India
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+</body>
+</html>

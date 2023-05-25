@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font awesome file link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/sign up.css">
+
+  <!-- jquery file link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+
+<script src="js/signup.js"></script>
+
+<link rel="shortcut icon" href="images/4.ico">
+
+  <title>Dog Haven</title>
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+<a href="#" class="logo"><img src="images/logo.png" alt=""><div class="logo-txt">Dog Haven.</div></a>
+
+
+<div class="fas fa-bars"></div>
+
+
+<nav class="navbar">
+  <ul>
+    <li><a class="li2" href="index.html"><i class='bx bx-home' ></i> Home</a></li>
+    <li><a href="profiles.html" class="li2"><i class="fa fa-paw" aria-hidden="true"></i> Adopt Now</a></li>
+    <li><a class="li2" href="gallery.html"><i class='bx bx-news' ></i> Gallery</a></li>
+    <li><a class="li2" href="contact us.html" target="_blank"><i class='bx bxs-contact' ></i> Contact Us</a></li>
+    <li><a class="li2" href="login.html"><i class='bx bx-log-in' ></i> Login/Sign Up</a></li>
+  </ul>
+</nav>
+
+
+</header>
+
+  <div class="content">
+	  <div class="head1">
+		<h1>Sign <span style="color:white;">Up!</span></h1>
+	</div>
+		<form form name="myform2" onsubmit="myval()">
+      <div class="fg1">
+			<div id="form-group1">
+                <input type="text" class="email-bt" id="firstName" placeholder="First Name" required>
+            </div>
+            <div id="form-group1">
+              <input type="text" class="email-bt" id="lastName" placeholder="Last Name" required>
+          </div>
+            <div id="form-group2">
+                <input type="text" class="email-bt" id="email" placeholder="Email ID" required>
+            </div>
+			<div id="form-group2">
+                <input type="number" class="email-bt" id="number" placeholder="Phone Number" onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false" required>
+            </div>
+            <div id="form-group2">
+                <input type="password" class="email-bt" id="setPass" placeholder="Password (Minimum 8 characters)" >
+            </div>
+
+			<div class="send_btn">
+                <button id="btn1" type="submit">Sign Up</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+	 </section>
+
+
+</body>
+</html>
